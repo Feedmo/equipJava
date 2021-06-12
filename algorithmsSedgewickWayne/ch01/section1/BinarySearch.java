@@ -1,6 +1,5 @@
 package equipJava.algorithmsSedgewickWayne.ch01.section1;
 
-// TODO 或许可以增加泛型来让方法更通用(但要注意比较的方式需要修改，或许可以参考jdk的实现)
 public class BinarySearch {
     public static int rank(int key, int[] a) {
         int lo = 0, hi = a.length - 1;
